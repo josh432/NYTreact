@@ -33,7 +33,8 @@ npm manifest:
       "nodemon": "^1.11.0"
     },
     "dependencies": {
-      "express": "^4.15.4"
+      "express": "^4.15.4",
+      "mongoose": "^5.0.11"
     }
   }
 
