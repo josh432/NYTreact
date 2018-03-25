@@ -33,8 +33,7 @@ npm manifest:
       "nodemon": "^1.11.0"
     },
     "dependencies": {
-      "express": "^4.15.4",
-      "mongoose": "^5.0.11"
+      "express": "^4.15.4"
     }
   }
 
@@ -2147,7 +2146,7 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 3221225786
   Command: C:\WINDOWS\system32\cmd.exe
   Arguments: /d /s /c concurrently "nodemon server.js" "npm run client"
   Directory: C:\Users\jrsil\Documents\NYTreact
