@@ -1,11 +1,11 @@
 import React from "react";
 
-const Saved = () =>
+const Saved = props =>
   <div>
-  <h2>Saved Articles</h2>
-    <div>
-      Saved Div
-    </div>
+   <h4>{props.title}</h4>
+    <p>Publish Date & Time: {props.date}</p>
+    <a href={props.url} target="_blank">Link To Article</a><br/>
+    <button onClick={() => props.handleDeleteButton(props._id)}>Delete</button>
 
   </div>
 
