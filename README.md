@@ -1,43 +1,16 @@
-# Create React Express App
+# NYT REACT
 
-## About This Boilerplate
+## About this app
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+This app. enables users to read and save/delete articles from NYT API. Users can delete articles that have already been read.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Functionality
 
-## Starting the app locally
+This app was built using express to route and mongoose schemas to interact with MongoDB database. React.js is used on the front-end to render components and axios to make the api call to the NYT. 
 
-Start by installing front and backend dependencies. While in this directory, run the following commands:
+## Comments
 
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
+I ran into a major hiccup programming this app. My local machine stopped running react, but not before I completed and committed the code. I had to reset my PC, and my machine is to blame for the minimal styling. I will return to this repo to style this app further. But, it works! This technical issue came at a bad time, and I lost a few days of development because of this. This was by far the most difficult project to date for me to code, as I'm entirely new to programming in react. Thanks to my instructor Mark, my TA's Jasmine and Drew, and my classmate Becky for helping me, and being patient during this technical problem!! 
 
-After both installations complete, run the following command in your terminal:
 
-```
-yarn start
-```
 
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
-
-1. Build the React app for production by running the following command:
-
-```
-yarn build
-```
-> Note: A yarn build will be required to register any new Post requests from any front-end JavaScript to to prevent any proxy server errors.
-
-2. Add and commit all changes to git
-
-3. Push to Heroku
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
